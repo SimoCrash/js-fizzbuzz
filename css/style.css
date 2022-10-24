@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083B4C;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    font-size: 100px;
+}
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.squares div {
+    background-color: #1389B2;
+    width: calc((100% - 2rem*6) / 7);
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
